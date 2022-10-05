@@ -1,0 +1,56 @@
+.user-card {
+    display: inline;
+    float: left;
+    margin-left: 8rem;
+    /* justify-content: space-around; */
+    /* background-color: rgb(30, 7, 52); */
+    
+}
+.button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 3px solid #8a2be2;
+    background-color: rgb(233, 230, 227);
+    color: black;
+    border-radius: 12px;
+    /* margin-right: 1rem; */
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.user-card-item {
+    width: 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+    background-color: rgb(221, 209, 233);
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.user-card-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top:1rem;
+}
+
+.user-card-img {
+    /* height: 20px; */
+    height: auto;
+    object-fit:cover,
+}
+
+.user-card-avatar {
+    width: 100px;
+    height: 100px;
+}
