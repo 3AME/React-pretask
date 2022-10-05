@@ -1,8 +1,8 @@
 import UserDetails from "./UserDetails";
-import './UsersCard.css'
+import '../UsersCard/UsersCard.css'
 
 const UsersDetails = (props) => {
-    console.log("hi",props.items)
+    // console.log("hi",props.items)
     return (
         <ul className="user-ul">
             {props.items.map((item) => (
@@ -13,7 +13,7 @@ const UsersDetails = (props) => {
                     website={item.website}
                     email = {item.email}
                     phone={item.phone}
-                    company = {item.company}
+                    company = {item.company.name}
                     street = {item.address.street}
                     suite = {item.address.suite}
                     city = {item.address.city}

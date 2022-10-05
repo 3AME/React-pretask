@@ -4,6 +4,7 @@ import UsersCard from "../UsersCard/UsersCard";
 
 import { getList } from '../UsersCard/UsersList';
 import "./HomePage.css"
+import UsersDetails from '../UsersDetails/UsersDateils'
 
 function HomePage() {
     const [usersList, setUsersList] = useState([]);
@@ -22,9 +23,9 @@ function HomePage() {
         <Card className="home-card">
             <UsersCard items={usersList}></UsersCard>
         </Card>
-        {/* <Card className="home-card">
+        <Card className="home-card">
             <UsersDetails items={usersList}></UsersDetails>
-        </Card> */}
+        </Card>
        
 
     </div>)

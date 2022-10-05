@@ -1,4 +1,3 @@
-import Button from "../UI/Button";
 import UserCardItem from "./UserCardItem"
 import './UsersCard.css'
 
