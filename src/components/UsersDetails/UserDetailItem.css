@@ -12,3 +12,12 @@
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
+.user-details {
+    display: inline;
+    float: left;
+    margin-left: 6rem;
+    /* justify-content: space-around; */
+    /* background-color: rgb(30, 7, 52); */
+    
+}

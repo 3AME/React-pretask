@@ -6,7 +6,7 @@ import './UserDetailItem.css'
 
 const UserDetails = (props) => {
     // console.log("1",props)
-    return (<li>
+    return (<li className="user-details">
         {/* <h2>Here is user details</h2> */}
         <Card className="use-detail-item">
             <div className="user-card-name">Name: {props.name}</div>
